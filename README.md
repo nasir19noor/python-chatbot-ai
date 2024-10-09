@@ -6,7 +6,7 @@ source chatbot/bin/activate  # On Windows, use `chatbot\Scripts\activate`
 
 pip install -r requirements.txt
 
-streamlit run main.py
+streamlit run main.py --server.port 8502
 
 curl -fsSL https://ollama.com/install.sh | sh
 
